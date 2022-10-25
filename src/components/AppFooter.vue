@@ -1,8 +1,8 @@
 <template>
   <CFooter>
     <div>
-      <a href="https://ergopos.io" target="_blank">EPOS</a>
-      <span class="ms-1">&copy; {{ new Date().getFullYear() }} ErgoPOS.</span>
+      <a href="https://ergopos.io" target="_blank">ErgoPOS</a>
+      <span class="ms-1">Copyright &copy; {{ new Date().getFullYear() }}.</span>
     </div>
     <div class="ms-auto">
       <span class="me-1" target="_blank">Powered by</span>

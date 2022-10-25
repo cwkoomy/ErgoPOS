@@ -6,7 +6,7 @@ export default [
     icon: 'cil-speedometer',
     badge: {
       color: 'primary',
-      text: 'EPOS',
+      text: 'Admin',
     },
   },
   {
@@ -15,15 +15,9 @@ export default [
   },
   {
     component: 'CNavItem',
-    name: 'Collection',
+    name: 'Payment Collection',
     to: '/',
     icon: 'cil-star',
-  },
-  {
-    component: 'CNavItem',
-    name: 'Deposit',
-    to: '/',
-    icon: 'cil-notes',
   },
   {
     component: 'CNavItem',
@@ -33,20 +27,32 @@ export default [
   },
   {
     component: 'CNavItem',
-    name: 'Transfer',
+    name: 'About',
+    to: '/',
+    icon: 'cil-notes',
+  },
+  {
+    component: 'CNavItem',
+    name: 'FAQ',
+    to: '/',
+    icon: 'cil-chart-pie',
+  },
+  {
+    component: 'CNavItem',
+    name: 'Terms',
     to: '/',
     icon: 'cil-layers',
   },
   {
     component: 'CNavItem',
-    name: 'Transaction',
+    name: 'Policy',
     to: '/',
-    icon: 'cil-chart-pie',
+    icon: 'cil-layers',
   },
-  {
-    component: 'CNavTitle',
-    name: 'Utilities',
-  },
+  // {
+  //   component: 'CNavTitle',
+  //   name: 'Utilities',
+  // },
   {
     component: 'CNavItem',
     name: 'Support',

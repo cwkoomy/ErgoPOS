@@ -4,25 +4,25 @@
       <CWidgetStatsB class="mb-3" :progress="{ color: 'success', value: 100 }">
         <template #text>Current Balance</template>
         <template #title>ERG</template>
-        <template #value>ERGO {{ ssBalance }}.00</template>
+        <template #value>{{ ssBalance }}.00</template>
       </CWidgetStatsB>
     </CCol>
     <CCol :xs="4">
       <CWidgetStatsB
         class="mb-3"
         :progress="{ color: 'info', value: 100 }"
-        text="Exchange Balance"
-        title="USDT"
-        value="$ 100.36"
+        text="Current Balance"
+        title="EPOS"
+        value="1280.00"
       />
     </CCol>
     <CCol :xs="4">
       <CWidgetStatsB
         class="mb-3"
         :progress="{ color: 'warning', value: 100 }"
-        text="Total Transaction Amount"
-        title="USD"
-        value="$ 2,311.00"
+        text="Current Balance"
+        title="eBTC"
+        value="0.00"
       />
     </CCol>
   </CRow>
@@ -413,3 +413,4 @@ export default {
   },
 }
 </script>
+<style></style>

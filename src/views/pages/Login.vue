@@ -7,7 +7,7 @@
             <CCard class="p-4">
               <CCardBody>
                 <CForm>
-                  <h2>ErgoPOS Login</h2>
+                  <h2>Merchant Login</h2>
                   <p class="text-medium-emphasis">Sign In to your account</p>
                   <CInputGroup class="mb-3">
                     <CInputGroupText>
@@ -33,8 +33,7 @@
                   <CRow>
                     <CCol :xs="6">
                       <CButton
-                        color="primary"
-                        class="px-4"
+                        class="px-4 btn-primary btn-primary:hover"
                         @click="SubmitLogin()"
                       >
                         Login
@@ -49,10 +48,7 @@
                 </CForm>
               </CCardBody>
             </CCard>
-            <CCard
-              class="text-white bg-primary bg-gradient py-5"
-              style="width: 44%"
-            >
+            <CCard class="text-white bg-color py-4">
               <CCardBody class="text-center">
                 <div>
                   <div class="container">
@@ -136,5 +132,18 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.bg-color {
+  background-color: #2980b9;
+}
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #2980b9 !important;
+  border-color: #2980b9 !important;
+}
+.btn-primary:hover {
+  background-color: #144566 !important;
+  border-color: #144566 !important;
 }
 </style>

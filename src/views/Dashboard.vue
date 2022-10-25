@@ -9,7 +9,7 @@
               <div class="row">
                 <div class="col-lg-3 col-sm-2">
                   <br />
-                  <h4>Transaction List</h4>
+                  <h4>Payment Collection</h4>
                 </div>
                 <div class="col-lg-3 col-sm-2">
                   <label for="startDate">From Date:</label>
@@ -35,7 +35,7 @@
                   <br />
                   <button
                     type="button"
-                    class="btn btn-primary"
+                    class="btn btn-primary btn-primary:hover"
                     @click="DateSearch()"
                   >
                     Search
@@ -578,3 +578,15 @@ export default {
   },
 }
 </script>
+<style>
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #2980b9 !important;
+  border-color: #2980b9 !important;
+}
+.btn-primary:hover {
+  background-color: #144566 !important;
+  border-color: #144566 !important;
+}
+</style>
