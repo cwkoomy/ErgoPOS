@@ -51,13 +51,16 @@
                     ><!-- <CIcon name="cil-people" /> --># ID</CTableHeaderCell
                   >
                   <CTableHeaderCell class="text-center"
-                    >Merchant ID</CTableHeaderCell
+                    >Transaction No.</CTableHeaderCell
+                  >
+                  <CTableHeaderCell class="text-center"
+                    >Customer ID</CTableHeaderCell
+                  >
+                  <CTableHeaderCell class="text-center"
+                    >Trx Desc</CTableHeaderCell
                   >
                   <CTableHeaderCell class="text-center"
                     >Trx Amount</CTableHeaderCell
-                  >
-                  <CTableHeaderCell class="text-center"
-                    >Trx Category</CTableHeaderCell
                   >
                   <CTableHeaderCell class="text-center"
                     >Date/Time</CTableHeaderCell
@@ -70,13 +73,16 @@
                     {{ dtdetail.ID }}
                   </CTableDataCell>
                   <CTableDataCell class="text-center">
-                    {{ dtdetail.MerchantID }}
+                    {{ dtdetail.TxNo }}
                   </CTableDataCell>
                   <CTableDataCell class="text-center">
-                    {{ dtdetail.TxAmount + '.00' }}
+                    {{ dtdetail.CustomerID }}
                   </CTableDataCell>
                   <CTableDataCell class="text-center">
-                    {{ dtdetail.TxCategory }}
+                    {{ dtdetail.TxDesc }}
+                  </CTableDataCell>
+                  <CTableDataCell class="text-center">
+                    {{ dtdetail.TxAmount }}
                   </CTableDataCell>
                   <CTableDataCell class="text-center">
                     {{ dtdetail.CreatedDateTime }}
