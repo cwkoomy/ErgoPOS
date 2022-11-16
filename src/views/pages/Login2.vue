@@ -114,12 +114,10 @@ export default {
             )
             console.log(res)
             console.log('Success')
-            alert('Login Success')
             this.$router.push('/')
           } else {
             console.log('Error')
-            alert('Login Fail')
-            // this.$router.push('/views/pages/Login')
+            this.$router.push('/views/pages/Login')
           }
         })
     },

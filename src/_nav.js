@@ -28,25 +28,25 @@ export default [
   {
     component: 'CNavItem',
     name: 'About',
-    to: '/',
+    to: '/about',
     icon: 'cil-notes',
   },
   {
     component: 'CNavItem',
     name: 'FAQ',
-    to: '/',
+    to: '/faq',
     icon: 'cil-chart-pie',
   },
   {
     component: 'CNavItem',
     name: 'Terms',
-    to: '/',
+    to: '/agreement',
     icon: 'cil-layers',
   },
   {
     component: 'CNavItem',
-    name: 'Policy',
-    to: '/',
+    name: 'Privacy',
+    to: '/privacy',
     icon: 'cil-layers',
   },
   // {
@@ -56,7 +56,7 @@ export default [
   {
     component: 'CNavItem',
     name: 'Support',
-    to: '/',
+    to: '/support',
     icon: 'cil-puzzle',
   },
   // {
